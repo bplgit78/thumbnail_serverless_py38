@@ -70,8 +70,8 @@ provider:
 
 custom:
   bucket: bpl-img-thumbnailgen-location
-  pythonRequirements:
-    dockerizePip: true
+  # pythonRequirements:
+  #   dockerizePip: true
 
 functions:
   bpl_thumbnail_generator:
